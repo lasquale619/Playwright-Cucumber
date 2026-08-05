@@ -1,0 +1,28 @@
+{
+    "default": {
+        "tags": "",
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "tests/features"
+        ],
+        "retry": 1,
+        "require": [
+            "tests/steps/*.js",
+            "tests/hooks/hooks.js"
+        ],
+        "format": [
+            "progress-bar",
+            [
+                "json",
+                "test-results/cucumber-report.json"
+            ],
+            [
+                "html",
+                "test-results/cucumber-report.html"
+            ]
+        ]
+        
+    }
+}
