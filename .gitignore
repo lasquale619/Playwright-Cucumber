@@ -7,3 +7,6 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Captures des scénarios en échec (générées par les hooks)
+/reports/
